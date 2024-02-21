@@ -1,8 +1,12 @@
-import { useState } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
-import './App.css';
+import React from 'react';
+import MessageForm from './MessageForm';
+import Board from './Board';
 
 export default function App() {
-  return;
-  <></>;
+  return (
+    <div>
+      <MessageForm />
+      <Board />
+    </div>
+  );
 }
